@@ -17,11 +17,31 @@ nav a {
     text-decoration: none;
 }
 /* SLIDER */
-.ban {
-    background-image: url("img/slider/slide1.jpg");
+.banniere img{   
+    width: 100%;
+    height: 500px;
+    
+    
 }
 /* Presentation */ 
 .glogo{
     height: 20%;
     width: 20%;
+}
+footer {
+    background-color: #142850;
+    height: 190px;
+  
+
+}
+footer .icn {
+    width: 50px;
+    height: 50px;
+    
+}
+.navfooter {
+  
+}
+.social {
+    
 }

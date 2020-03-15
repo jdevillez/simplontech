@@ -31,17 +31,40 @@ nav a {
 footer {
     background-color: #142850;
     height: 190px;
-  
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 footer .icn {
     width: 50px;
     height: 50px;
     
 }
+
+.partner img {
+    width: 50%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partner {
+    margin-top: 150px;
+}
 .navfooter {
-  
+   text-align: center;
+
 }
 .social {
-    
+    text-align: center;
+}
+.contacter {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+} 
+/* CONTACT */ 
+.hl {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
 }

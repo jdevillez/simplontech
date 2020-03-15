@@ -1,7 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif !important;
 }
 
 nav {
@@ -40,11 +40,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 footer .icn {
     width: 50px;
     height: 50px;
     
+}
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    color: white;
 }
 .bg_blue {
     background-color: #f7f7f7;
@@ -80,8 +86,16 @@ footer .icn {
     text-align: center;
 } 
 .card-body {
-    border: 2px solid #142850;
+   
     margin-bottom: 5px;;
+}
+.card-group .card {
+    border: 2px solid #142850 !important;
+    margin-right: 2px;
+    margin-bottom: 80px;
+}
+.card-group .card-body {
+    background-color: #f7f7f7;
 }
 /* CONTACT */ 
 .hl {
@@ -91,4 +105,20 @@ footer .icn {
 }
 .about {
     text-align: center;
+}
+.banniere {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.ss {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.title_galerie {
+    text-align: center;
+   font-size: 36px;
+   margin-top: 80px;
 }

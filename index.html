@@ -8,22 +8,57 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="#">ACCEUIL</a>
-            <a href="#">GALERIE</a>
+            <a href="index.html">ACCEUIL</a>
+            <a href="galerie.html">GALERIE</a>
             <img src="img/logo/logo2_3.png" alt="logo simplon">
-            <a href="#">CONTACT</a>
+            <a href="contact.html">CONTACT</a>
             <input type="search">
         </nav>
     </header>
     <!-- slider  -->
-    <div class="banniere">
-        <img src="img/slider/slide2.jpg" alt=""></div>
-    <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/slider/slide1.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide2.jpg" class="d-block" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/slider/slide3.jpg" class="d-block" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container mt-5 mb-5">
         <div class="row">
             <img class="glogo" src="img/logo/g_logo.png" alt="">
             <div class="col-4">
@@ -43,83 +78,76 @@
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-4">
-                <h2>LES PLUS VENDUS</h2>
-            </div>
-
-            <div class="col-4">
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
-                    <a href="#" class="btn btn-primary">En savoir plus</a>
+    <div class="bg_blue">
+        <div class="container">
+            <div class="row ">
+                <div class="col-4">
+                    <h2 class="title_blue">LES PLUS VENDUS</h2>
                 </div>
 
+                <div class="col-4">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
 
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
-                    <a href="#" class="btn btn-primary">En savoir plus</a>
+
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-4">
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
-                    <a href="#" class="btn btn-primary">En savoir plus</a>
-                </div>
+                <div class="col-4">
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
 
 
-                <div class="card-body">
-                    <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
-                    <a href="#" class="btn btn-primary">En savoir plus</a>
+                    <div class="card-body">
+                        <p class="card-text">Lorem ipsum dolor sit avseatae nesciunt ve</p>
+                        <a href="#" class="btn btn-primary">En savoir plus</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container partner">
-        <div class="row">
+        <div class="row ">
             <div class="col-4">
-                <h2>PARTENAIRE</h2>
+                <h2 class="title_blue">PARTENAIRE</h2>
             </div>
-            <div class="col-4">
+            <div class="col-4 ">
 
                 <img src="img/partner/asus.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ea at mollitia impedit minima aut
-                    saepe est ipsam unde maiores. Nulla provident eius molestiae ratione dolorem vitae impedit quidem
-                    aspernatur.Corporis id molestias provident et laudantium repellendus quos rerum amet fugit
-                    perspiciatis autem rem hic voluptates dolorem porro nam, ipsa at necessitatibus obcaecati vel
-                    impedit, sapiente consectetur! Fugit, eaque tempora.</p>
+                <p>Lorem ipsum dololla provident eius molestiae ratione dolorem vitae impedit quidem
+                    aspernature tempora.</p>
                 <img src="img/partner/corsair.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam asperiores nemo, quaerat nobis
-                    voluptatum est distinctio officia harum aliquid architecto alias ratione magni impedit autem enim
-                    soluta voluptatem accusamus possimus.</p>
+                <p>Lorem ipsum dolor sit hfhfhfhfhffhfhfhfhfhf possimus.</p>
 
             </div>
             <div class="col-4">
                 <img src="img/partner/hyperx.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, optio! Officiis, sapiente? Quae
-                    aut earum placeat. Officia voluptatibus ex, aspernatur cumque aut qui id enim. Distinctio soluta
+                <p>Lorem, ipsum dolor sibus ex, aspernatur cumque aut qui id enim. Distinctio soluta
                     aperiam dolorem qui!</p>
                 <img src="img/partner/steelseries.png" alt="">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dignissimos animi et assumenda. Labore
-                    inventore minima atque obcaecati? Eos, natus reiciendis similique maxime incidunt iure facere ab eum
-                    ipsum omnis?Ut autem perspiciatis excepturi aliquid, laboriosam sint fugit ducimus nam voluptatum
-                    consequatur nobis, accusantium, officiis eius totam placeat vero eveniet est consectetur
-                    reprehenderit assumenda vel itaque libero voluptatem quaerat. Doloremque.</p>
+                    inventore mvoluptatem quaerat. Doloremque.</p>
             </div>
         </div>
     </div>
 
     <footer>
         <div class="container">
-            <div class="row">
+            <div class="row">  
                 <div class="navfooter col-4 mt-5">
                     <a href="#">Acceuil</a>
                     <a href="#">Galerie</a>
                     <a href="#">Les plus vendus</a>
                     <a href="#">Nos partenaire</a>
                 </div>
+             
                 <div class="social col-4 mt-5">
                     <img class="icn" src="img/social/instagram.png" alt="">
                     <img class="icn" src="img/social/snapchat.png" alt="">

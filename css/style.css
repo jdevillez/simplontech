@@ -53,7 +53,7 @@ footer .icn {
     color: white;
 }
 .bg_blue {
-    background-color: #f7f7f7;
+    background-color: hsl(184, 25%, 88%);
 }
 .title_blue {
     background-color: #142850;
@@ -95,7 +95,7 @@ footer .icn {
     margin-bottom: 80px;
 }
 .card-group .card-body {
-    background-color: #f7f7f7;
+    background-color: hsl(184, 25%, 88%);
 }
 /* CONTACT */ 
 .hl {
@@ -116,9 +116,30 @@ footer .icn {
     margin-bottom: 30px;
     font-size: 24px;
     font-weight: bold;
+    color: #142850;
 }
 .title_galerie {
     text-align: center;
    font-size: 36px;
    margin-top: 80px;
+   font-weight: bold;
+    color: #142850;
 }
+.col-5 .card {
+    border: 1px solid #142850 !important;
+}
+.testi {
+    height: 150px;    
+}
+.vendu  {
+    
+    border-right: 1px solid #142850;
+    height: 100%;
+    width: 100%;
+}
+.btn  {
+    background-color: #142850 !important;
+    border-color: #142850 !important;
+    text-align: center !important;    
+}
+
